@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>反激式变压器设计工具 - 技术支持</title>
+  <style>
+    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; font-size: 18px; line-height: 1.6; max-width: 720px; margin: 2em auto; padding: 0 1em; color: #333; }
+    h1 { font-size: 1.75em; color: #1565c0; }
+    h2 { font-size: 1.35em; margin-top: 1.5em; }
+    a { color: #0969da; }
+    ul { padding-left: 1.2em; }
+    .lead { font-size: 1.05em; }
+  </style>
+</head>
+<body>
+  <h1>反激式变压器设计工具</h1>
+  <p><small>最后更新：2026-05-21</small></p>
+
+  <p class="lead"><strong>反激式变压器设计工具</strong>是面向电源工程师的<strong>离线</strong>反激式变压器设计应用：从电气规格与约束出发，自动完成磁芯选型、匝数与线规、损耗与温升估算，并生成可存档的 PDF / JSON 报告。全部计算在您的设备本地完成，设计数据<strong>不上传</strong>开发者服务器。</p>
+
+  <p>适用于通过 <strong>App Store</strong> 安装的 <strong>iPhone、iPad、Mac</strong>（Apple 芯片 Mac 运行 iOS 兼容版本，以商店展示为准）。提供 <strong>14 天全功能免费试用</strong>；试用结束后可通过 <strong>年度订阅</strong> 继续使用。</p>
+
+  <h2>产品优势</h2>
+  <ul>
+    <li><strong>专为反激式设计</strong>：支持 DCM / BCM / QR / CCM，最多 3 路次级输出，覆盖常见反激拓扑与多输出电源。</li>
+    <li><strong>联合迭代选型</strong>：磁芯 × 匝数 × 线径（含利兹线）一次扫描，多方案对比，减少手工反复试算。</li>
+    <li><strong>内置数据库</strong>：建立磁芯、骨架与材料数据（E / ETD / PQ / RM / EFD 等），可按厂家筛选</li>
+    <li><strong>气隙与电感对齐</strong>：由 Lm、Np 解析反算气隙，含边缘磁通修正；Lm、B_peak、温升一并校验。</li>
+    <li><strong>可扩展数据库</strong>：「我的数据库」在本机维护自定义材料、磁芯、骨架，与内置库合并参与选型。</li>
+    <li><strong>隐私与离线</strong>：核心设计可离线使用；无第三方广告；与「电感设计专家」为独立应用，账户与数据不互通。</li>
+  </ul>
+
+  <h2>主要功能</h2>
+  <ul>
+    <li>整流桥直流输入、多路输出规格与交叉调节提示。</li>
+    <li>AP 法磁芯预选、iGSE / Steinmetz 铁损、Dowell 铜损谐波修正。</li>
+    <li>窗口分配、绝缘线规与热等级约束。</li>
+    <li>界面：<strong>简体中文 / English。</strong></li>
+  </ul>
+
+  <h2>使用流程（三步）</h2>
+  <ol>
+    <li><strong>规格与约束</strong> — 输入电压、多路输出、开关频率、工作模式及 Bmax、Jmax、Ku 等约束。 </li>
+    <li><strong>磁芯与绕组</strong> — 查看迭代候选方案，按损耗、温升、磁密与窗口利用率选定设计。</li>
+    <li><strong>汇总与报告</strong> — 核对参数表与警告说明，导出 PDF 或 JSON 文件。</li>
+  </ol>
+
+  <h2>试用与订阅</h2>
+  <ul>
+    <li><strong>14 天全功能试用</strong>：试用期内可使用完整三步流程与导出。</li>
+    <li><strong>年度订阅</strong>：产品 ID <code>com.deepthinker2026.flybackdesigner.pro.annual</code>，自动续订，由 Apple 管理账单与退款。</li>
+    <li>试用结束且未订阅时，无法进入第 2、3 步，亦无法导出报告。</li>
+    <li>开通或恢复购买：应用内 <strong>设置 → 订阅</strong>，或按界面 Paywall 提示操作。</li>
+  </ul>
+
+  <h2>常见问题</h2>
+  <ul>
+    <li><strong>如何开通订阅？</strong> 打开「设置」→「订阅」，按提示完成年度订阅或恢复购买。</li>
+    <li><strong>能否离线使用？</strong> 变压器设计操作可离线完成；订阅验证与 App Store 相关操作需网络。</li>
+    <li><strong>数据是否上传？</strong> 否。详见 <a href="https://tobebetter2026.github.io/Public-documents/FlybackTransformerDesigner/privacy-policy.html">隐私政策</a>。</li>
+  </ul>
+
+  <h2>联系我们</h2>
+  <p>
+    <a href="https://github.com/Tobebetter2026/FlybackTransformerDesigner/issues">GitHub Issues</a>（问题反馈与功能建议）。<br>
+    电子邮箱：<a href="mailto:Deepthinker2026@outlook.com">Deepthinker2026@outlook.com</a>
+  </p>
+
+  <h2>相关链接</h2>
+  <p>
+    <a href="https://tobebetter2026.github.io/Public-documents-Flyback-Transformer-Designer/zh/privacy-policy-Chinese.html">隐私政策</a> ·
+    <a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/">Apple 标准许可（EULA）</a>
+  </p>
+
+  <hr>
+  <p>开发者：Xu Jianzhong · © 2026. All rights reserved.</p>
+</body>
+</html>
